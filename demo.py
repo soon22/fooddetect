@@ -10,7 +10,7 @@ model2 = load_model('fooddetect.h5')
 foodlabels = ['dimsum','dumpling','fried rice','maggi curry','laksa Johor']
 # Which cam ?I used a USB camera instead of my laptop's cam (In this case, Use 0)
 cap = cv2.VideoCapture(1)
-# Args for put text
+# Arguments for put text
 font = cv2.FONT_HERSHEY_SIMPLEX 
 org = (50, 50) 
 fontScale = 1 
